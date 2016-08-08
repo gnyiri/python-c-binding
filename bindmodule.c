@@ -1,7 +1,9 @@
 #include <Python.h>
+#include <unistd.h>
 
 static PyObject* x_wait(PyObject* self)
 {
+    usleep(1000000);
     Py_RETURN_NONE;
 }
 
