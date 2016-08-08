@@ -1,4 +1,6 @@
-from bind import *
+import bind
+
+
 
 
 
